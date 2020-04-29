@@ -20,7 +20,7 @@ const Navbar = ({ title, icon }) => {
     <Fragment>
       <li>
         <Link to='/'>
-          <span className='text-dark'>{user && user.name + '  '}</span>
+          <span>{user && user.name.toUpperCase() + '  '}</span>
         </Link>
       </li>
       <li>
