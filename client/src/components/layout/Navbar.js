@@ -20,7 +20,7 @@ const Navbar = ({ title, icon }) => {
     <Fragment>
       <li>
         <Link to='/'>
-          <span className='text-primary'>{user && user.name + '  '}</span>
+          <span className='text-dark'>{user && user.name + '  '}</span>
         </Link>
       </li>
       <li>
